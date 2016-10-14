@@ -34,7 +34,6 @@ def spaceFrame(bx, bz, px, py, pillarDistances, pillarHeights):
 		for i in pillarHeights:
 			structure = addFloor(structure, distance, i)
 			distance = distance + i
-			
 		return structure
 
 	return createStructure()
