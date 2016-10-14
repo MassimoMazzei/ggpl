@@ -2,7 +2,6 @@ from pyplasm import *
 
 def spaceFrame(bx, bz, px, py, pillarDistances, pillarHeights):
 
-
 	def createPillars(distance, height):
 		a = CUBOID([px, py, height])
 		a = STRUCT([T(3)(distance), a])
@@ -12,7 +11,6 @@ def spaceFrame(bx, bz, px, py, pillarDistances, pillarHeights):
 			b = STRUCT([b, T(2)(dist + i), a])
 			dist = dist + i
 		return b
-
 
 	def createBeams(height):
 		a = CUBOID([bx, pillarDistances[0], bz])
@@ -30,8 +28,6 @@ def spaceFrame(bx, bz, px, py, pillarDistances, pillarHeights):
 
 	def createGroundFloor():
 		return STRUCT([createPillars(0,pillarHeights[0]), createBeams(pillarHeights[0])])
-
-	
 
 	def createStructure():
 		structure = createGroundFloor()
