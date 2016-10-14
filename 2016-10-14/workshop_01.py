@@ -3,25 +3,24 @@ from pyplasm import *
 def spaceFrame(bx, bz, px, py, pillarDistances, pillarHeights):
 
 	def createPillars(distance, height):
-		a = CUBOID([px, py, height])
-		a = STRUCT([T(3)(distance), a])
-		b = STRUCT([a, T(2)(pillarDistances[0]), a])
+		pillar = CUBOID([px, py, height])
+		pillar = STRUCT([T(3)(distance), pillar])
+		pillars = STRUCT([pillar, T(2)(pillarDistances[0]), pillar])
 		dist = pillarDistances[0]
 		for i in pillarDistances[1:]:
-			b = STRUCT([b, T(2)(dist + i), a])
+			pillars = STRUCT([pillars, T(2)(dist + i), pillar])
 			dist = dist + i
-		return b
+		return pillars
 
 	def createBeams(height):
-		a = CUBOID([bx, pillarDistances[0], bz])
-		
-		b = STRUCT([T(3)(height), T(2)(px/2), a])
+		beam = CUBOID([bx, pillarDistances[0], bz])
+		beams = STRUCT([T(3)(height), T(2)(px/2), beam])
 		dist = pillarDistances[0]
 		for i in pillarDistances[1:]:
-			a = CUBOID([bx, i, bz])
-			b = STRUCT([b, T(3)(height), T(2)(dist + px/2), a])
+			beam = CUBOID([bx, i, bz])
+			beams = STRUCT([beams, T(3)(height), T(2)(dist + px/2), beam])
 			dist = dist + i
-		return b
+		return beams
 
 	def addFloor (structure, distance, pillarHeight):
 		return STRUCT([structure, createPillars(distance, pillarHeight), createBeams(distance + pillarHeight)])
