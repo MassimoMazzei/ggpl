@@ -90,7 +90,6 @@ def ggpl_bone_structure(file_name):
 		structure = parameters[0]
 		for frame in parameters[1:]:
 			structure = STRUCT([structure, frame])
-
 		beamX = [0.2, -1.3, 0.2, -1.3, 0.2]
 		beamZ = [10.2]
 		beamY = [-1, 0.2, -.8, 0.2, -.8, 0.2, -.8, 0.2, -.8, 0.2, -.8, 0.2]
