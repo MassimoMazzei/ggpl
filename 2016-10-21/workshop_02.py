@@ -104,4 +104,4 @@ def ggpl_bone_structure(file_name):
 
 	VIEW(createStructure())
 	
-ggpl_bone_structure("frame_data.csv")
+ggpl_bone_structure("frame_data_451631.csv")
