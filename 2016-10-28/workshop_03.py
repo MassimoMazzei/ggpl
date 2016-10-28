@@ -6,11 +6,7 @@ def ggpl_uShapedStair(dx,dy,dz):
 	riser = float(dz)/numberOfSteps
 	tread = .64-2*riser
 
-	def createStep():
-		step = CUBOID([float(dx)/2,tread,riser])
-		return step
-
-	step = createStep()
+	step = CUBOID([float(dx)/2,tread,riser])
 
 	"""Create the first ramp"""
 	for i in range(1,numberOfSteps/2):
@@ -18,21 +14,31 @@ def ggpl_uShapedStair(dx,dy,dz):
 
 	landing = CUBOID([dx,float(dy)/4,riser])
 	stair = STRUCT([step,T(2)(tread*numberOfSteps/2),T(3)(riser*numberOfSteps/2),landing])
-	step = createStep()
+	step = CUBOID([float(dx)/2,tread,riser])
 
 	a = CUBOID([float(dx)/2,tread,float(dz)/4])
 
-	#H = MAT([[1,0,0],[0,1,0],[0,float(dy)/2,1]])
-	#m = STRUCT([SKEL_1(a), H, a])
-	#m = STRUCT([R([1,3])(PI/2)(m)])
-	#m = STRUCT([T(1)(float(dx)/2),m])
-	#m = STRUCT([T(2)(tread/2),m])
 
+	understair = MKPOL([[[0,0],[tread,riser],[0,riser]],[[1,2,3]],1])
+	width = QUOTE([float(dx)/2])
+	understairs = PROD([understair,width])
+	understairs = STRUCT([R([1,3])(-PI/2)(understairs)])
+	understairs = STRUCT([R([2,3])(PI/2)(understairs)])
+	understairs = STRUCT([T(2)(tread),understairs])
+
+	for i in range(1,numberOfSteps/2-1):
+		understairs = STRUCT([understairs, T(2)(tread), T(3)(riser),understairs])
+
+
+	understair = STRUCT([R([1,2])(PI),understairs])
+	understair = STRUCT([T([1,2,3])([dx,tread*.5+dy*.75,float(dz)/2]), understair])
 	"""Create the second ramp"""
 	for i in range(1, numberOfSteps/2):
 		stair = STRUCT([stair,T(1)(float(dx)/2),T(2)(tread*numberOfSteps/2-tread*i),T(3)(riser*numberOfSteps/2+riser*i),step])
-	#f = STRUCT([m,stair])
+	stair = STRUCT([understairs,stair])
+
+	stair = STRUCT([understair,stair])
 	VIEW(stair)
 	
 
-ggpl_uShapedStair(3,3,3)
+ggpl_uShapedStair(4,3,3)
