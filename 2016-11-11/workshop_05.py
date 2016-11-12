@@ -18,25 +18,8 @@ def ggpl_furniture():
 	desk = STRUCT([desk,T([1,2])([deskX-legX, deskY-legY]), leg])
 	
 
-	dz=1.0
-	dx= 1.0
-	dy=0.5
-	green=color(0,204,153)
-	wood=color(205,133,63)
-	metal=color(178,178,178)
-	dzColor=dz-0.0001
-	dxS=dx-0.005
-	dzS=dz-0.02
-	dxDownDesk=dxS-0.02
-	dzDownDesk=dzS-0.12
-    
-	colorDeskVertex=[[0,0,dz],[dx,0,dz],[dx,dy,dz],[0,dy,dz],[0,0,dzColor],[dx,0,dzColor],[dx,dy,dzColor],[0,dy,dzColor]]
-	colorDeskCells=[[1,2,3,4,5,6,7,8]]
-	colorDesk=MKPOL([colorDeskVertex,colorDeskCells,None])
-	colorDesk=STRUCT([COLOR(green),colorDesk])
 
 
-	VIEW(colorDesk)
 	chairX = .5
 	chairY = .5
 	chairZ = .05
@@ -51,14 +34,14 @@ def ggpl_furniture():
 	chairLeg = CUBOID([chairLegX, chairLegY, chairLegZ])
 	chair = CUBOID([chairX, chairY, chairZ])
 	
-
+	VIEW(chair)
 	chair = STRUCT([chairLeg, T(3)(chairLegZ), chair])
 	chair = STRUCT([chair,T(1)(chairX-chairLegX), chairLeg])
 	chair = STRUCT([chair, T(2)(chairY-chairLegY), chairLeg])
 	chair = STRUCT([chair, T([1,2])([chairX-chairLegX,chairY-chairLegY]), chairLeg])
 	chair = STRUCT([chair, T(3)(chairLegZ+chairZ), chairBack])
 
-
+	VIEW(chair)
 	blackboardX = 2.0
 	blackboardY = .08
 	blackboardZ = 1.4
