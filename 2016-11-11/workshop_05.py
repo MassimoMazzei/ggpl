@@ -65,6 +65,6 @@ def ggpl_furniture():
 
 
 	structure = STRUCT([chair,T([1,2])([-chairX/2,chairY+.1]),desk])
-	
+	VIEW(blackboard)
 
 ggpl_furniture()
