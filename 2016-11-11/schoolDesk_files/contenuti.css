@@ -1,0 +1,360 @@
+/**ARTICOLO*/
+
+.c_articolo {
+	border-bottom:1px solid #cdcdcd;
+	padding-bottom:10px; 
+}
+.c_articolo_testo {
+	width:100%;
+	text-align:justify;
+	line-height:1.4;
+}
+.c_articolo_testo img,.c_pagina_testo img {
+	margin:5px auto;
+	margin-left: auto;
+	margin-right: auto;
+  	display: block;
+}
+.c_articolo_correlati {
+	border-bottom:1px solid #cdcdcd;
+	line-height:20px;
+	height:20px;
+}
+.c_articolo_menu ul,.c_pagina_menu ul{
+	width:auto;
+	list-style-type:disc;
+	list-style-position:inside;
+	margin-left:15px;
+}
+.c_articolo_menu li,.c_pagina_menu li{
+	clear:both;
+	display:block;
+	padding-left:5px; 
+}
+.c_articolo_menu li ul{ 
+	border-left:1px solid #cdcdcd;
+}
+
+
+.c_articolo h1,.c_news h1,.c_pagina h1,.c_newsletter h1 {
+	color:#1349b5;
+	font-size:17px;
+	font-weight:normal;
+	background:none;
+	border-bottom:1px solid #cdcdcd;
+	padding-bottom:5px;
+}
+.c_articolo_testo h3,.c_news_testo h3,.c_pagina_testo h3,.c_prodotto_testo h3 {
+	color:#000;
+	font-size:15px;
+	font-weight:bold;
+	clear:both;
+	width:100%;
+	margin-top:10px;	
+}
+
+.c_articolo_testo,.c_pagina_testo,.c_news_testo,.c_prodotto_testo,c.newsletter_testo {
+	width:100%;
+	text-align:left;
+	line-height:1.4;
+	font-size:13px;
+}
+.c_pagina_testo p,.c_articolo_testo p,.c_news_testo p,.c_pagina_testo p,.c_prodotto_testo p,c_newsletter_testo p {
+	clear:both;
+	width:100%;
+	display:block;
+	margin-top:10px;
+} 
+.c_pagina_testo ul,.c_articolo_testo ul,.c_news_testo ul,.c_pagina_testo ul {
+	clear:both;
+	width:100%;
+	display:block;
+	list-style-type:square;
+}
+.c_pagina_testo li,.c_articolo_testo li,.c_news_testo li,.c_pagina_testo li {
+	clear:both;
+	width:100%;
+	display:block;
+	margin-left:20px;
+	margin-top:3px;
+	
+}
+.c_articolo_collezione,.c_pagina_collezione {}
+.c_articolo_sottotitolo {
+	width:100%;
+	clear:both;
+	text-align:left;
+	font-size:14px;
+	color:#2f2f2f;
+	font-weight:bold;
+}
+.c_articolo_collezione_img,.c_pagina_collezione_img,.c_prodotto_collezione_img {
+	width:147px;
+	padding:5px;
+	border:1px solid #eaeaea;
+	text-align:left;
+	height:122px;
+	margin:5px;
+	display:inline;
+}
+.c_prodotto_collezione_img {
+	margin:5px;
+	padding:2px;
+	width:105px;
+	height:85px;
+	
+}
+.c_articolo_collezione_img img,.c_pagina_collezione_img img,.c_prodotto_collezione_img img {
+	border:0;
+	margin-top:12px;
+	margin-left:11px;
+}
+.c_prodotto_collezione_img img {
+	width:100px;
+	margin-top:2px;
+	margin-left:2px;
+}
+
+/** NEWS */
+.c_news {
+	border-bottom:1px solid #cdcdcd;
+	padding-bottom:10px;
+}
+.c_news_testo {
+	width:100%;
+	text-align:justify;
+	line-height:1.4;
+}
+.c_news_testo img {
+	margin:0 auto;
+	margin-left: auto;
+	margin-right: auto;
+  	display: block;
+}
+.c_news_correlati {
+	border-bottom:1px solid #cdcdcd;
+	line-height:20px;
+	height:20px;
+}
+.c_pagina_testo {
+	width:100%;
+}
+.c_news_collezione {
+	width:151px;
+	float:right;
+	margin-top:15px;
+}
+.c_news_sottotitolo {
+	width:100%;
+	clear:both;
+	text-align:left;
+	font-size:14px;
+	color:#2f2f2f;
+	font-weight:bold;
+}
+.c_news_collezione_img {
+	width:151px;
+	text-align:left;
+	height:126px;
+	clear:both;
+	margin-bottom:10px;
+	display:inline;
+	background: url(http://www.pulcinodoro.it/sito/common/img/news_img_sfondo.png);
+}
+.c_news_collezione_img img {
+	border:0;
+	margin-top:12px;
+	margin-left:11px;
+}
+
+/** PRODOTTO */
+
+.c_prodotto {
+}
+
+.c_prodotto h1 {
+	font-size:19px;
+	color:#2f2f2f;	
+}
+
+.c_prodotto_img {
+	width:280px;
+	text-align:left;
+	padding:10px 0px 10px 0px;
+	border:px solid #ababab;
+}
+.c_prodotto_img img {
+	width:270px;
+	margin:5px;
+}
+
+
+.c_prodotto_testata {
+	width:426px;
+	margin-top:10px;
+	float:right;
+}
+
+.c_prodotto_testata_linea {
+	line-height:20px;
+	display:block;
+	width:100%;
+	margin-top:5px;
+	border-bottom:1px dotted #cdcdcd;
+	font-size:10px;
+}
+
+.c_prodotto_acquista,.c_prodotto_acquista_vetrina {
+	width:426px;
+	background: url(http://www.pulcinodoro.it/sito/common/img/web/prodotto_acquista.png) no-repeat;
+	height:106px;
+	display:block;
+	margin-top:15px;
+}
+.c_prodotto_acquista_vetrina {
+	background: url(http://www.pulcinodoro.it/sito/common/img/web/prodotto_acquista_vetrina.png) no-repeat;
+}
+
+.prezzo_acquista_lineare {
+	width:416px;
+	margin:13px 6px 13px 4px;
+	display:block;
+	clear:both;
+}
+
+
+.c_prodotto_sconto_add {
+	color:#c9142d;
+	font-size:10px;
+	width:100%;
+	clear:both;
+	margin-top:10px;
+	font-weight:bold;
+	text-align:center;
+	
+}
+
+.c_prodotto_sin {
+	border-right:1px solid #cdcdcd;
+	width:270px;
+	font-size:10px;
+}
+.c_prodotto_des {
+	width:426px;
+	text-align:justify;
+	float:right;
+}
+.c_prodotto_sin_in {
+	width:260px;
+	margin-right:10px;
+}
+
+.c_prodotto_simile {
+	width:171px;
+	margin-right:12px;
+	height:70px;
+	background: url(http://www.pulcinodoro.it/sito/common/img/web/prodotto_simile_sfondo.png) no-repeat;
+}
+.c_prodotto_simile_img {
+	margin:11px 5px 5px 5px;	
+	border-right:1px solid #cdcdcd;
+}
+.c_prodotto_simile_img  img{
+	width:60px;
+}
+.c_prodotto_simile_des {
+	width:98px;
+	text-align:left;
+	float:right;
+}
+.c_prodotto_simile_des_titolo{
+	width:90%;
+	font-size:10px;
+	font-weight:bold;
+	clear:both;
+	margin:5px 0px 5px 0px;
+}
+.c_prodotto_simile_des_prezzo{
+	width:90%;
+	position:absolute;
+	z-index:10;
+	top:50px;
+	left:0;
+	font-size:11px;
+	text-align:right;
+}
+
+
+
+
+.c_prodotto_su1 {
+	height:120px;
+	width:100%;
+	border-bottom:1px solid #cdcdcd;
+	
+}
+.c_prodotto_carrello {
+	width:200px;
+	margin:10px 0px 10px 10px;
+	text-align:right;
+	float:right;
+	font-size:11px;	
+}
+.c_prodotto_carrello_in {
+	width:160px;
+	height:100px;
+	margin:20px 0px 0px 20px;
+	background-image:url(http://www.pulcinodoro.it/sito/common/img/sfondo_carrello.gif);
+	background-repeat:no-repeat;
+	
+}
+.c_prodotto_intestazione {
+	width:200px;
+	margin:10px 0px 10px 0px;
+	text-align:left;
+	float:left;
+	font-size:11px;	
+	line-height:22px;
+}
+.c_prodotto_intestazione img {
+	vertical-align:middle;
+	margin:3px 0px 3px 0px;
+}
+.c_prodotto_intestazione1,.c_prodotto_intestazione2,.c_prodotto_intestazione3 {
+	width:10%;
+	clear:none;
+	text-align:left;
+}
+.c_prodotto_intestazione2,.c_prodotto_intestazione3 {
+	width:60%;
+}
+.c_prodotto_intestazione3 {
+	width:30%;
+	text-align:right;
+}
+.c_prodotto_dati {
+	width:100%;
+	clear:both;
+	border-top:1px solid #cdcdcd;
+	margin-top:10px;
+}
+
+
+/** PAGINA */
+
+.c_pagina_testata {
+	width:100%;
+}
+
+.c_pagina_testo {
+	/*width:720px;*/
+}
+
+
+/** NEWSLETTER */
+.c_newsletter {
+	width:500px;
+	padding:5px;
+	border:1px solid #cdcdcd;
+	margin:5px;
+}

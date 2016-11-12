@@ -1,0 +1,277 @@
+/** BODY E DEFINIZIONI BASE */ 
+
+body {
+	width:100%;
+	height:100%;
+	padding:0;  
+	margin:0;
+	border:0;
+	font-family: verdana, arial, helvetica, sans-serif;
+}
+
+div,li,ol,ul,fieldset,label,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre {
+	position: relative;
+	margin:0px;
+	padding:0px;
+	border: 0px;
+	float: left;
+	top: 0px;
+	left: 0px;
+	display:inline;
+	float:left;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after{content:'';}
+abbr,acronym {border:0;}
+ul {width:100%;}
+li, li A:link, li A:visited,li A:hover {
+}
+p { 
+	margin: 0; 
+	padding: 0; 
+}
+img {border:0;}
+	
+.lineare,.lineare_cen,.lineare_no,.lineare_2,.lineare_5,.lineare_7,.lineare_10,.lineare_20,.lineare_25 {
+	margin-top:15px;
+	width:100%;
+	display:block;
+	clear:both;
+	text-align:left;
+}
+.lineare_cen {text-align:center;}
+.lineare_no {margin:0;}
+.lineare_2 {margin-top:2px;}
+.lineare_5 {margin-top:5px;}
+.lineare_7 {margin-top:7px;}
+.lineare_10 {margin-top:10px;}
+.lineare_20 {margin-top:20px;}
+.lineare_25 {margin-top:25px;}
+
+.margin_2 {margin:2px;}
+.margin_5 {margin:5px;}
+.margin_7 {margin:7px;}
+.margin_10 {margin:10px;}
+.margin_15 {margin:15px;}
+
+.margin_top_2 {margin-top:2px;}
+.margin_top_5 {margin-top:5px;}
+.margin_top_7 {margin-top:7px;}
+.margin_top_10 {margin-top:10px;}
+.margin_top_15 {margin-top:15px;}
+.margin_right_2 {margin-right:2px;}
+.margin_right_5 {margin-right:5px;}
+.margin_right_7 {margin-right:7px;}
+.margin_right_10 {margin-right:10px;}
+.margin_right_15 {margin-right:15px;}
+.margin_bottom_2 {margin-bottom:2px;}
+.margin_bottom_5 {margin-bottom:5px;}
+.margin_bottom_7 {margin-bottom:7px;}
+.margin_bottom_10 {margin-bottom:10px;}
+.margin_bottom_15 {margin-bottom:15px;}
+.margin_left_2 {margin-left:2px;}
+.margin_left_5 {margin-left:5px;}
+.margin_left_7 {margin-left:7px;}
+.margin_left_10 {margin-left:10px;}
+.margin_left_15 {margin-left:15px;}
+
+.padding_2 {padding:2px;}
+.padding_5 {padding:5px;}
+.padding_7 {padding:7px;}
+.padding_10 {padding:10px;}
+.padding_15 {padding:15px;}
+
+.padding_top_2 {padding-top:2px;}
+.padding_top_5 {padding-top:5px;}
+.padding_top_7 {padding-top:7px;}
+.padding_top_10 {padding-top:10px;}
+.padding_top_15 {padding-top:15px;}
+.padding_right_2 {padding-right:2px;}
+.padding_right_5 {padding-right:5px;}
+.padding_right_7 {padding-right:7px;}
+.padding_right_10 {padding-right:10px;}
+.padding_right_15 {padding-right:15px;}
+.padding_bottom_2 {padding-bottom:2px;}
+.padding_bottom_5 {padding-bottom:5px;}
+.padding_bottom_7 {padding-bottom:7px;}
+.padding_bottom_10 {padding-bottom:10px;}
+.padding_bottom_15 {padding-bottom:15px;}
+.padding_left_2 {padding-left:2px;}
+.padding_left_5 {padding-left:5px;}
+.padding_left_7 {padding-left:7px;}
+.padding_left_10 {padding-left:10px;}
+.padding_left_15 {padding-left:15px;}
+
+.clear_right {clear:right;}
+.clear_left {clear:left;}
+
+
+.testo_blu {color:#142f87;}
+.testo_azzurro {color:#0066ff;}
+.testo_arancio {color:#f15103;}
+.testo_verde {color:#40ac2a;}
+.testo_rosso {color:#c9142d;}
+.testo_viola {color:#bf4abe;}
+.testo_nero {color:#000;}
+.testo_grigio {color:#787878;}
+.testo_bianco {color:#fff;}
+
+.testo9{font-size:9px;}
+.testo10{font-size:10px;}
+.testo11{font-size:11px;}
+.testo12{font-size:12px;}
+.testo13{font-size:13px;}
+.testo14{font-size:14px;}
+.testo15{font-size:15px;}
+.testo16{font-size:16px;}
+.testo17{font-size:17px;}
+.testo18{font-size:18px;}
+.testo19{font-size:19px;}
+.testo20{font-size:20px;}
+.testo21{font-size:21px;}
+.testo22{font-size:22px;}
+
+.testo_sin {text-align:left;}
+.testo_des {text-align:right;}
+.testo_cen {text-align:center;}
+.testo_jus {text-align:justify;}
+
+.sinistra{float:left;clear:none;}
+.destra{float:right;clear:none;}
+.meta {width:49%;}
+.terzo {width:33%;}
+.dueterzi {width:66%;}
+.quarto {width:25%;}
+.duequarti {width:50%;}
+.trequarti {width:75%;}
+.quinto {width:20%;}
+.duequinti {width:40%;}
+.trequinti {width:60%;}
+.quattroquinti {width:80%;}
+.decimo {width:10%;}
+.img_cen {vertical-align:middle;}
+
+.sottolineato {text-decoration:underline; }
+.grassetto {font-weight:bold;}
+.italico {text-decoration:italic;}
+
+
+form {
+	height:auto;
+	display:block;
+}
+
+.puntatore {cursor:pointer;};
+.visibile {display:inline;}
+.invisibile {display:none;}
+
+/* DATEPICKER START */
+.datePicker{position:absolute;color:#000;z-index:500;width:190px;}
+.datePicker .handle{margin:0;padding:0;height:24px;background:url(http://www.pulcinodoro.it/sito/common/img/datepicker/datePicker.png) no-repeat left top;width:190px;clear:both;}
+.datePicker .body{background:url(http://www.pulcinodoro.it/sito/common/img/datepicker/datePicker.png) no-repeat left bottom;padding:0 0 8px 0;width:190px;}
+.datePicker table {font:10px Verdana;border-collapse:separate;border-spacing:2px;empty-cells:hide;margin:0 0 0 3px}
+.datePicker b{float:left;font-weight:normal;padding:0 0 0 3px;cursor:default}
+.datePicker th{cursor:default;padding:4px 0;text-align:center;}
+.datePicker td{text-align:center}
+.datePicker thead td{padding:3px 2px;background:#999;color:#fff}
+.datePicker tbody td{padding:3px 4px;cursor:default;color:#ccc;border:1px solid #eee;}
+.datePicker td.selectable{background:#fff;cursor:pointer;color:#000}
+.datePicker td.selectable:hover{border-color:#517fd5}
+.datePicker td.selected{background:#517fd5;color:#fff}
+.datePicker .incdec{float:right;width:26px;height:13px;background:url(http://www.pulcinodoro.it/sito/common/img/datepicker/speeder.gif) no-repeat left top}
+.datePicker .incdec span{display:block;width:13px;height:13px;cursor:pointer}
+.datePicker .incdec span.disabled{background-image:url(http://www.pulcinodoro.it/sito/common/img/datepicker/speeder.gif);cursor:default}
+.datePicker .up{background-position:right bottom;float:right}
+.datePicker .down{background-position:left bottom;float:left}
+.datePicker .close{cursor:pointer}
+#fecha02{cursor:pointer}
+#sample3 p{padding:5px 0}
+#sample3 input{width:190px}
+/* DATEPICKER END */
+
+/* FORMCHECK START */
+
+.fc-tbx .tl{
+	background: url('http://www.pulcinodoro.it/sito/common/img/formcheck/tl.png') no-repeat;
+}
+.fc-tbx .t{
+	background: url('http://www.pulcinodoro.it/sito/common/img/formcheck/t.png') repeat-x;
+	height: 16px;
+}
+.fc-tbx .tr{
+	background: url('http://www.pulcinodoro.it/sito/common/img/formcheck/tr.png') no-repeat;
+}
+.fc-tbx .l{
+	background: url('http://www.pulcinodoro.it/sito/common/img/formcheck/l.png') repeat-y;
+	width : 16px;
+}
+.fc-tbx .r{
+	background: url('http://www.pulcinodoro.it/sito/common/img/formcheck/r.png') repeat-y;
+	width: 16px;
+}
+.fc-tbx .bl{
+	background: url('http://www.pulcinodoro.it/sito/common/img/formcheck/bl.png') no-repeat;
+}
+.fc-tbx .b{
+	background: url('http://www.pulcinodoro.it/sito/common/img/formcheck/b.png') no-repeat;
+	height: 25px;
+}
+.fc-tbx .br{
+	background: url('http://www.pulcinodoro.it/sito/common/img/formcheck/br.png') no-repeat;
+}
+.fc-tbx .c{
+	background: url('http://www.pulcinodoro.it/sito/common/img/formcheck/c.png') repeat;
+}
+.fc-tbx a.close {
+	float: right;
+	background: url('http://www.pulcinodoro.it/sito/common/img/formcheck/close.png') no-repeat;
+	position: relative;
+	margin-left: 5px;
+	display: block;
+	width: 10px;
+	height: 10px;
+	cursor: pointer;
+}
+.fc-tbx .err {
+	float: left;
+}
+.fc-tbx p {
+	width : auto;
+	display: block;
+	font-size: 11px;
+	font-family: verdana, "sans-serif";
+	margin : 0;
+	padding : 0;
+	border : 0;
+	color : #fff;
+}
+
+.ajax_loader {
+	background : url('http://www.pulcinodoro.it/sito/common/img/formcheck/ajax-loader.gif') no-repeat center;
+	width : 200px;
+	height : 150px;
+}
+/* FormCheck validation div */
+.fc-error {
+	border : 1px solid #888;
+	margin-top : 5px;
+	background-color : #EAEAEA;
+}
+.fc-error p {
+	margin : 5px;
+	color : #A00;
+} 
+/* FORMCHECK END */
+
+#segnala_box {	
+	position:fixed;
+	z-index:10000;
+	width:100%;
+	background:transparent;
+	height:24px;
+}
+
+

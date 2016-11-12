@@ -1,0 +1,105 @@
+
+
+.l_produttore {}
+.l_produttore_img { padding:0 10px 10px 10px;}
+.l_produttore h1 {
+	color:#252525;
+	font-size:19px;
+	font-weight:normal;
+	padding-bottom:5px;
+	display:inline;
+	letter-spacing:2px;
+	clear:both;
+	float:none;
+}
+.l_produttore_testo {
+	font-size:13px;
+	width:100%;
+	border-top:1px solid #cdcdcd;
+	padding-top:5px;
+} 
+
+
+.l_autore {}
+.l_autore_img { padding:0 10px 10px 10px;}
+.l_autore h1 {
+	color:#252525;
+	font-size:19px;
+	font-weight:normal;
+	padding-bottom:5px;
+	display:inline;
+	letter-spacing:2px;
+	clear:both;
+	float:none;
+}
+.l_autore_testo {
+	font-size:13px;
+	width:100%;
+	border-top:1px solid #cdcdcd;
+	padding-top:5px;
+}
+
+
+.l_tag {}
+.l_tag_img { padding:0 10px 10px 10px;}
+.l_tag h1 {
+	color:#252525;
+	font-size:19px;
+	font-weight:normal;
+	padding-bottom:5px;
+	display:inline;
+	letter-spacing:2px;
+	clear:both;
+	float:none;
+}
+.l_tag_testo {
+	font-size:13px;
+	width:100%;
+	border-top:1px solid #cdcdcd;
+	padding-top:5px;
+}
+
+.l_garanzia {}
+.l_garanzia h1 {
+	color:#252525;
+	font-size:19px;
+	font-weight:normal;
+	padding-bottom:5px;
+	display:inline;
+	letter-spacing:2px;
+	clear:both;
+	float:none;
+}
+.l_garanzia_testo {
+	font-size:13px;
+	width:100%;
+	border-top:1px solid #cdcdcd;
+	padding-top:5px;
+}
+
+.l_nota {}
+.l_nota h1 {
+	color:#252525;
+	font-size:19px;
+	font-weight:normal;
+	padding-bottom:5px;
+	display:inline;
+	letter-spacing:2px;
+	clear:both;
+	float:none;
+}
+.l_nota_testo {
+	font-size:13px;
+	width:100%;
+	border-top:1px solid #cdcdcd;
+	padding-top:5px;
+}
+
+/** IMMAGINI CENTRALI */
+
+.l_produttore_testo img,.l_autore_testo img,.l_nota_testo img,.l_stato_testo img,.l_spedizione_testo img,.l_pagamento_testo img,.l_tag_testo img,.l_garanzia_testo img  {
+	margin:0 auto;
+	margin-left: auto;
+	margin-right: auto;
+  	display: block;
+}

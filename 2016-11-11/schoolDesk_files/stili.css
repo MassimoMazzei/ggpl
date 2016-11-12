@@ -1,0 +1,897 @@
+/** BODY E DEFINIZIONI BASE */
+
+body {
+	padding: 0px;
+	font-size: 11px;
+	margin: 0px;
+	font-family: verdana, arial, helvetica, sans-serif;
+	height: 100%;
+	width:100%;
+	color: #373737;
+	text-align: justify;
+	background: #ffc046 url(http://www.pulcinodoro.it/sito/common/img/web/body_sfondo.png) top center repeat-x;
+
+	background:#fff9ed;
+}
+
+h1 {
+	color:#000;
+	font-size:17px;
+	font-weight:normal;
+	border-bottom:1px solid #cdcdcd;
+}
+
+a:link, a:visited {
+	COLOR: #103d6b; TEXT-DECORATION: underline;
+	border: 0px;
+}
+a:hover {
+	COLOR: #f3660a; TEXT-DECORATION: underline ;
+	border: 0px;
+}
+
+/** SPAZI FONDAMENTALI DELLE PAGINE */
+.dentro {
+	width:990px;
+	margin:0 auto;
+	display:block;
+	float:none;
+	overflow:hidden;
+}
+#logo {
+	position:absolute;
+	top:5px;
+	left:620px;
+	z-index:10;
+}
+#testata {
+	width:100%;
+	margin-top:25px;
+}
+#testata_des {
+	width:220px;
+	height:30px;
+	margin-top:40px;
+	background:#fff;
+}
+#testata_menu {
+	width:250px;
+	margin-top:50px;
+	color:#fff;
+}
+#testata_menu a:link,#testata_menu a:hover,#testata_menu a:visited {color:#fff; text-decoration:underline;}
+#testata_menu a:hover {font-weight:bold;}
+
+.testata_alta {
+	height:400px;
+	height:500px;
+}
+.testata_normale {
+	height:154px;
+}
+.cerca {
+	width:150px;
+	font-size:16px;
+	font-weight:bold;
+	letter-spacing:1px;
+	color:#252525;
+	background:#ffffff;
+	border:3px double #f1f1f1;
+
+	border:1px solid #333;
+}
+#sito {
+	background: url(http://www.pulcinodoro.it/sito/common/img/web/sito_sfondo.png) top center repeat-y;
+}
+#sito_top {
+	background: url(http://www.pulcinodoro.it/sito/common/img/web/sito_top.png) bottom center no-repeat;
+	height:46px;
+}
+#data {
+	width:130px;
+	text-align:center;
+	color:#000;
+}
+#menu_top {
+	margin-left:5px;
+	margin-top:1px;
+	height:30px;
+}
+.menu_top {
+	width:160px;
+	height:30px;
+	display:block;
+	margin-right:5px;
+	background :transparent url(http://www.pulcinodoro.it/sito/common/img/web/menu_top.png) top center no-repeat;
+	letter-spacing:1px;
+	font-weight:bold;
+	text-align:center;
+	background-position: 0 -31px;
+	line-height:30px;
+	font-size:12px;
+}
+.menu_top_sel {
+	background-position: 0 0;
+}
+.menu_top a,.menu_top a:link,.menu_top a:hover,.menu_top a:visited { text-decoration:none; }
+
+#sito_bottom {
+	background: url(http://www.pulcinodoro.it/sito/common/img/web/sito_bottom.png) top center repeat-y;
+	height:20px;
+}
+
+#sito_in {
+	min-height:900px;
+	width:960px;
+	margin:0 15px 0 15px;
+	background:transparent;
+}
+
+#fondo {
+	width:960px;
+	margin:0px 15px 0px 15px;
+	height:75px;
+	background:#03598a;
+	color:#fff;
+	line-height:1.5;
+	padding-top:5px;
+}
+
+#col_cen {
+	width:690px;
+	min-height:600px;
+	float:right;
+	margin-right:10px;
+}
+
+#col_sin {
+	height:100%;
+	width:250px;
+	min-height:600px;
+}
+.col_sin_dentro {
+	width:235px;
+	padding:0 10px 0 5px;
+}
+
+
+#corpo {
+	width:720px;
+	padding:0 10px;
+	min-height:600px;
+
+}
+
+#corpo_top {
+	height:48px;
+}
+
+#menu {
+	font-weight:bold;
+}
+
+.menu,.menu_sel{
+	margin:5px 10px 0px 0px;
+	width:115px;
+	height:25px;
+	line-height:25px;
+	font-size:10px;
+	text-align:center;
+	background-image:url(http://www.pulcinodoro.it/sito/common/img/web/menu.gif);
+}
+.menu_sel{
+	background-image:url(http://www.pulcinodoro.it/sito/common/img/web/menu_sel.gif);
+	font-size:12px;
+	color:#000000;
+	height:30px;
+}
+.menu_sel a:link,.menu_sel a:visited,.menu_sel a:hover {
+	color:#000;
+	text-decoration:none;
+}
+
+
+/** COLONNA SINISTRa (BOX E SPAZI) START */
+
+.col_sin_blocco {
+	border-bottom:1px dotted #cdcdcd;
+	line-height:20px;
+	font-size:12px;
+}
+
+.col_sin_titolo {
+	height:35px;
+	line-height:35px;
+	font-weight:bold;
+	font-size:13px;
+	letter-spacing:1px;
+	width:192px;
+	padding-left:38px;
+	margin-left:5px;
+}
+.col_sin_titolo1 { background: transparent url(http://www.pulcinodoro.it/sito/common/img/web/col_sin_titolo1_sfondo.png) center left no-repeat;}
+.col_sin_titolo2 { background: transparent url(http://www.pulcinodoro.it/sito/common/img/web/col_sin_titolo2_sfondo.png) center left no-repeat;}
+.col_sin_titolo3 { background: transparent url(http://www.pulcinodoro.it/sito/common/img/web/col_sin_titolo3_sfondo.png) center left no-repeat;}
+.col_sin_titolo4 { background: transparent url(http://www.pulcinodoro.it/sito/common/img/web/col_sin_titolo4_sfondo.png) center left no-repeat;}
+.col_sin_titolo5 { background: transparent url(http://www.pulcinodoro.it/sito/common/img/web/col_sin_titolo5_sfondo.png) center left no-repeat;}
+.col_sin_titolo6 { background: transparent url(http://www.pulcinodoro.it/sito/common/img/web/col_sin_titolo6_sfondo.png) center left no-repeat;}
+.col_sin_titolo7 { background: transparent url(http://www.pulcinodoro.it/sito/common/img/web/col_sin_titolo7_sfondo.png) center left no-repeat;}
+.col_sin_titolo8 { background: transparent url(http://www.pulcinodoro.it/sito/common/img/web/col_sin_titolo8_sfondo.png) center left no-repeat;}
+.col_sin_titolo9 { background: transparent url(http://www.pulcinodoro.it/sito/common/img/web/col_sin_titolo9_sfondo.png) center left no-repeat;}
+.col_sin_titolo10 { background: transparent url(http://www.pulcinodoro.it/sito/common/img/web/col_sin_titolo10_sfondo.png) center left no-repeat;}
+.col_sin_titolo11 { background: transparent url(http://www.pulcinodoro.it/sito/common/img/web/col_sin_titolo11_sfondo.png) center left no-repeat;}
+.col_sin_titolo12 { background: transparent url(http://www.pulcinodoro.it/sito/common/img/web/col_sin_titolo12_sfondo.png) center left no-repeat;}
+.col_sin_titolo13 { background: transparent url(http://www.pulcinodoro.it/sito/common/img/web/col_sin_titolo13_sfondo.png) center left no-repeat;}
+#categorie {
+	background: transparent url(http://www.pulcinodoro.it/sito/common/img/web/categorie_sfondo.png) top left repeat-y;
+	border-top:2px solid #03598a;
+	border-bottom:2px solid #03598a;
+	line-height:20px;
+	font-size:12px;
+}
+#menutop {
+	background: transparent url(http://www.pulcinodoro.it/sito/common/img/web/menutop_sfondo.png) top left repeat-y;
+	border-top:2px solid #047f83;
+	border-bottom:2px solid #047f83;
+	line-height:20px;
+	font-size:12px;
+}
+#sottomenu {
+	position:absolute;
+	top:0;
+	left:250px;
+	background:#03598A;
+	width:200px;
+	font-size:12px;
+	line-height:20px;
+	z-index:100;
+	border-right:2px solid #00669F;
+}
+.sottomenu {width:100%;height:100%;}
+#categorie a,#sottomenu a,#menutop a {width:98%;height:100%;padding-left:2%;display:block; line-height:20px;font-size:12px;}
+#categorie a:link,#sottomenu a:link,#menutop a:link {color:#fff;text-decoration:none;width:98%;height:100%;}
+#categorie a:visited,#sottomenu a:visited,#menutop a:visited {color:#fff;text-decoration:none;width:98%;height:100%;}
+#categorie a:hover,#sottomenu a:hover,#menutop a:hover {color:#fff;text-decoration:none;width:98%;height:100%; background:#03598A;}
+#sottomenu a:hover {font-weight:bold;}
+
+
+#newsletter {
+	background: transparent url(http://www.pulcinodoro.it/sito/common/img/web/newsletter_sfondo.png) top left repeat-y;
+}
+
+
+/* COLONNA DESTRA END */
+
+/* VETRINA CON SLOGAN HOME PAGE START */
+#vetrina {
+	background: transparent url(http://www.pulcinodoro.it/sito/common/img/web/vetrina_sfondo.jpg) bottom center no-repeat;
+	height:390px;
+	width:100%;
+
+	padding-top:100px;
+	height:390px;
+	background: transparent;
+}
+#vetrina_container {
+	height:100%;
+	margin: 0 15px 0 15px;
+	overflow:hidden;
+	width:960px;
+}
+#vetrina_scroller {
+	height:100%;
+	width:2880px;
+}
+.vetrina {
+	height:100%;
+	width:960px;
+}
+.vetrina1 { background: transparent url(http://www.pulcinodoro.it/sito/common/img/web/vetrina1.png) bottom left no-repeat;}
+.vetrina2 { background: transparent url(http://www.pulcinodoro.it/sito/common/img/web/vetrina2.png) bottom left no-repeat;}
+.vetrina3 { background: transparent url(http://www.pulcinodoro.it/sito/common/img/web/vetrina3.png) bottom left no-repeat;}
+
+#vetrina_menu {
+	position:absolute;
+	top:320px;
+	left:750px;
+	z-index:500;
+	background:transparent;
+	height:48px;
+
+	top:400px;
+}
+.v_link {
+	margin: 0 5px 0 5px;
+	cursor:pointer;
+}
+
+#vetrina_link_left,#vetrina_link_right {
+	position:absolute;
+	height:40px;
+	width:15px;
+	top:240px;
+	left:0;
+	display:block;
+	z-index:100;
+	cursor:pointer;
+}
+#vetrina_link_right {
+	left:975px;
+}
+/* VETRINA CON SLOGAN HOME PAGE END */
+
+
+/*VETRINA OFFERTE COLONNA CENTRALE START*/
+.offerte {
+	background:url(http://www.pulcinodoro.it/sito/common/img/web/home_cen.png) repeat-y;
+}
+.offerte_blocco {
+	width:650px;
+	margin: 10px 20px 5px 20px;
+	clear:both;
+	padding-bottom:5px;
+	border-bottom:1px solid #f1f1f1;
+}
+.top_offerte {
+	background:url(http://www.pulcinodoro.it/sito/common/img/web/top_home_cen.png) repeat-y;
+}
+.top_offerte .elenco_prodotto_titolo {width:320px;}
+.top_offerte .elenco_prodotto {margin-top:0px;}
+.top_offerte_blocco {
+	width:650px;
+	margin: 10px 20px 5px 20px;
+	clear:both;
+	padding-bottom:5px;
+	border-bottom:1px solid #f1f1f1;
+}
+.offerta_img { width:90px;}
+.offerta_img img { width:74px;margin:5px;padding:2px;border:1px solid #cdcdcd;}
+.offerta_desc {width:215px;margin-left:5px;}
+/*VETRINA OFFERTE COLONNA CENTRALE END*/
+
+
+
+.sequenziale_pag {
+	margin: 0 3px 0 3px;
+}
+.sequenziale_sel {
+	margin: 0 3px 0 3px;
+	background:#00338a;
+	padding:0 2px 0 2px;
+	color:#fff;
+	font-weight:normal;
+}
+
+
+
+
+
+
+/* ELENCO CONTENTUI START */
+
+.elenco_menu_sin,.elenco_menu_des  {
+	font-size:11px;
+	line-height:15px;
+	text-align:left;
+	float:left;
+}
+.elenco_menu_des {
+	float:right;
+	text-align:right;
+}
+
+
+.elenco_prodotto{
+	clear:both;
+	width:100%;
+	margin-top:20px;
+	font-size:11px;
+	display:block;
+	height:122px;
+	overflow:hidden;
+
+}
+.elenco_articolo,.elenco_news,.ricerca_contenuti{
+	border-bottom:1px solid #f1f1f1;
+}
+.elenco_articolo img,.elenco_news img,.ricerca_contenuti img {
+	margin:0px 10px 10px 10px;
+}
+.elenco_articolo_dati,.elenco_news_dati {width:515px; }
+.ricerca_contenuti_dati {width:450px; }
+.elenco_articolo_dati h3 { font-size: 18px; color: #04213e; font-family: Georgia, "Times New Roman", Times, serif; margin-bottom: 5px; }
+.elenco_prodotto_titolo,.elenco_articolo_titolo{
+	width:360px;
+	margin-left:20px;
+	padding-top:15px;
+	text-align:left;
+	margin-top:20px;
+	line-height:16px;
+}
+.elenco_articolo_titolo{
+	width:540px;
+}
+.elenco_articolo_titolo_info {
+	clear:both;
+}
+.elenco_prodotto_titolo_titolo,.elenco_prodotto_titolo_titolo a:link ,.elenco_prodotto_titolo_titolo a:hover,.elenco_articolo_titolo_titolo,.elenco_articolo_titolo_titolo a:link ,.elenco_articolo_titolo_titolo a:hover  {
+	font-size:13px;
+	text-decoration:none;
+	width:100%;
+	clear:both;
+	margin:0;
+	color:#252525;
+}
+.elenco_prodotto_titolo_sommario,.elenco_articolo_titolo_sommario {
+	width:100%;
+	clear:both;
+	font-size:11px;
+	margin:0;
+	height:80px;
+	overflow:hidden;
+}
+.elenco_prodotto_produttore{
+	width:115px;
+	padding-top:48px;
+	text-align:center;
+	margin-left:10px;
+}
+.elenco_prodotto_dispo{
+	width:62px;
+	padding-top:45px;
+	margin-left:10px;
+	text-align:center;
+}
+.elenco_prodotto_prezzo{
+	width:148px;
+	padding-top:48px;
+	margin-left:5px;
+	text-align:center;
+	float:right;
+	margin-right:0px;
+}
+
+.ordina_per,.ordina_per_sel {
+	width:100%;
+	font-size:10px;
+	color:#000;
+	text-align:center;
+	margin:0;
+}
+.ordina_per_sel {
+	color:#fff;
+	font-weight:bold;
+}
+.ordina_per a:link, .ordina_per a:visited { color:#000}
+.ordina_per_sel a:link, .ordina_per_sel a:visited { color:#fff}
+
+
+/* ELENCO CONTENUTI END */
+
+
+/* RISULTATI RICERCA START */
+
+.ricerca_sin {
+	width:180px;
+	border-right:1px solid #eaeaea;
+	font-size:10px;
+	float:left;
+}
+.ricerca_des {
+	width:500px;
+	float:right;
+}
+
+.ricerca_prodotti {
+	width:500px;
+	height:122px;
+	margin-top:20px;
+	background:transparent url(http://www.pulcinodoro.it/sito/common/img/web/ricerca_prodotti_sfondo.gif) no-repeat;
+	display:block;
+}
+
+.ricerca_prodotti_des {
+	width:320px;
+	float:right;
+}
+.ricerca_prodotti_titolo{
+	width:300px;
+	padding-top:15px;
+	text-align:left;
+	line-height:16px;
+	clear:both;
+}
+.ricerca_prodotti_titolo,.ricerca_prodotti_titolo a:link ,.ricerca_prodotti_titolo a:hover  {
+	font-size:13px;
+	text-decoration:none;
+	width:100%;
+	clear:both;
+	margin:0;
+	color:#252525;
+}
+.ricerca_prodotti_titolo a:hover  {	text-decoration:underline; }
+
+.ricerca_prodotti_dispo { width:150px; }
+.ricerca_prodotti_prezzo { width:150px; }
+
+/* RISULTATI RICERCA END */
+
+
+
+/**COMMENTI */
+.commento {
+	width:99%;
+	background:#eaeaea;
+	border:1px solid #cdcdcd;
+}
+.commento_intestazione {
+	background:#cdcdcd;
+	height:18px;
+	line-height:18px;
+	font-size:11px;
+}
+.commento_testo {
+	height:auto;
+	overflow:auto;
+	max-height:250px;
+	width:98%;
+	margin:1%;
+	padding:5px 0 5px 0;
+}
+
+.commento q {
+	border:1px solid #878787;
+	margin:5px 0% 8px 3%;
+	width:94%;
+	clear:both;
+	display:block;
+	font-size:11px;
+
+}
+.commento_citazione_autore {
+	clear:both;
+	display:block;
+
+}
+.commento_citazione_testo {
+	font-style:italic;
+	width:96%;
+	margin:2%;
+	font-style:italic;
+}
+
+
+
+
+
+
+
+.breadcrumb {
+	width:100%;
+	line-height:20px;
+	height:20px;
+	margin-bottom:5px;
+	clear:both;
+	font-size:10px;
+	color:#5F5F5F;
+	background:#f1f1f1;
+
+}
+
+.breadcrumb a:visited,.breadcrumb a:link {
+	font-weight:bold;
+	text-decoration:none;
+	color:#5F5F5F;
+}
+.breadcrumb a:hover {
+	font-weight:bold;
+	text-decoration:underline;
+	color:#000000;
+}
+
+
+.contenuto_pagine ,.recensione_acquista {
+	width:350px;
+	float:left;
+}
+.recensione_acquista {
+	float:right;
+}
+.contenuto_pagine_barra,.recensione_acquista_barra {
+	clear:both;
+}
+
+/* XXMOD RECENSIONE START */
+.recensione_acquista_img {
+	margin-top:5px;
+	float:left;
+	margin-right:1px solid #eaeaea;
+	background:#eaeaea;
+}
+.recensione_acquista_img   img{
+	margin: 5px;
+}
+.recensione_acquista_des  {
+	float:right;
+	font-size:11px;
+}
+.recensione_acquista_titolo  {
+	clear:both;
+	margin-top:20px;
+	width:180px;
+	text-align:right;
+	margin-right:10px;
+}
+.recensione_acquista_prezzo  {
+	clear:both;
+	margin-top:40px;
+	width:180px;
+	text-align:right;
+	margin-right:10px;
+}
+/* XXMOD RECENSIONE END */
+
+
+.contenuto_pagine_pag,.contenuto_pagine_pag a:link,.contenuto_pagine_pag a:hover,.contenuto_pagine_pag a:visited {
+	clear:both;
+	width:99%;
+	text-align:left;
+	font-size:12px;
+	line-height:25px;
+	height:25px;
+	color:#000;
+	display:block;
+	border-bottom:1px solid #cdcdcd;
+	text-decoration:none;
+}
+.contenuto_pagine_pag a:hover {
+	color:#ff0000;
+}
+
+
+.prezzo_sbarrato {
+	position:absolute;
+	background:url(http://www.pulcinodoro.it/sito/common/img/scontato_sfondo.gif) repeat-x;
+	width:100%;
+	height:21px;
+	z-index:10;
+}
+
+
+.galleria {
+	clear:both;
+	width:100%;
+	text-align:center;
+	margin-top:10px;
+}
+
+.galleria li {
+	margin-right:15px;
+	margin-bottom:15px;
+	float:left;
+	line-height:50px;
+}
+
+.galleria img {
+	width:100px;
+	border:1px solid #cdcdcd;
+	padding:5px;
+	margin:5px;
+}
+
+
+/** CARRELLO START */
+
+.carrello_img {
+ 	width:145px;
+	height:120px;
+}
+.carrello_sel {
+ 	width:80px;
+	text-align:center;
+}
+.carrello_modulo {
+	margin-left:15px;
+ 	width:210px;
+}
+.carrello_spese {
+	margin-left:10px;
+ 	width:85px;
+ 	text-align:center;
+}
+.carrello_img img{
+ 	margin:5px 10px;
+}
+.carrello_titolo {
+	width:200px;
+	height:120px;
+	line-height:16px;
+	margin-top:40px;
+}
+.carrello_spazio {
+	width:80px;
+	text-align:center;
+	line-height:16px;
+	margin-top:40px;
+}
+.carrello_legenda {
+	float:right;
+	width:290px;
+	clear:both;
+}
+
+.carrello_riepilogo {
+	clear:both;
+	width:349px;
+	height:20px;
+	display:inline;
+	text-align:center;
+	line-height:20px;
+	color:#000;
+	font-size:11px;
+}
+.tip {
+	width: 200px;
+	color: #000;
+	text-align: left;
+	z-index:500;
+	display:block;
+}
+.tip-title {
+	color: #000;
+	font-weight: bold;
+	margin: 0;
+	padding: 10px;
+	background: url(http://www.pulcinodoro.it/sito/common/img/tip.png) top left no-repeat !important;
+	background: url(http://www.pulcinodoro.it/sito/common/img/tip.gif) top left no-repeat;
+	font-size: 11px;
+	width: 180px;
+}
+.tip-text {
+	margin: 0;
+	padding: 10px;
+	padding-top:0;
+	background: url(http://www.pulcinodoro.it/sito/common/img/tip.png) bottom left no-repeat !important;
+	background: url(http://www.pulcinodoro.it/sito/common/img/tip.gif) bottom left no-repeat;
+	font-size: 10px;
+	width: 180px;
+}
+
+
+
+
+
+
+
+
+
+/** ELENCO CONTENUTI*/
+.pagine {
+	width:100%;
+	clear:both;
+	text-align:center;
+	background-color:#eaeaea;
+	margin-top:20px;
+}
+.pagine_sin {
+	float:left;
+	padding:2px;
+	width:50%;
+}
+.pagine_des {
+	float:right;
+	background-color:#2C5C9B;
+	color:#ffffff;
+	padding:2px;
+	width:50%;
+}
+.pagine_des a:link,.pagine_des a:visited{
+	color:#ffffff;
+}
+
+
+.contenuti {
+	width:100%;
+	clear:both;
+	margin-top:10px;
+}
+
+.contenuti ul {
+	width:100%;
+	clear:both;
+}
+
+.contenuti ul.lista {
+	margin-top:10px;
+	border-bottom:1px solid #eaeaea;
+	height:95px;
+}
+
+.contenuti li {
+	text-align:left;
+}
+.contenuti li.img {
+	width:140px;
+	text-align:center;
+	clear:left;
+}
+.contenuti li.cella1 {
+	width:370px;
+	margin:15px 0px 0px 20px;
+}
+.contenuti li.cella2 {
+	width:180px;
+	background-image:url(http://www.pulcinodoro.it/sito/common/img/sfondo.gif);
+	float:right;
+	clear:right;
+	text-align:right;
+	line-height:20px;
+	padding:5px 2px 5px 0px;
+	margin-top:10px;
+}
+
+/** FORM E BOTTONI  START*/
+
+.button{
+	 font-weight:normal;
+	 margin-left:170px;
+	 font-size:10px;
+	 color:#000033;
+	 background-color: #ffffff;
+	 border:1px dashed #000033;
+}
+
+input {font-weight:bold;letter-spacing:1px;}
+
+.buttonSubmit, .buttonSubmitHovered {
+	width:152px;
+	height:27px;
+	color:#000;
+	padding:1px 5px;
+	background:url(http://www.pulcinodoro.it/sito/common/img/web/button.png) no-repeat left top;
+	cursor:pointer;
+	border:none;
+	font-weight:bold;
+}
+.buttonSubmitHovered {
+	background:url(http://www.pulcinodoro.it/sito/common/img/web/buttonHovered.png) no-repeat left top;
+}
+/** FORM E BOTTONI  END*/
+
+
+
+/* Hide from IE5-mac \*/
+	* html div {overflow:hidden;}
+	* html .tip-title {width:200px}
+	* html .tip-text {width:200px}
+/* End hide from IE5-mac */
+
+
+/**xxmod start */
+.correlati {
+	line-height:20px;
+	height:20px;
+	border-bottom:1px solid #f1f1f1;
+	letter-spacing:1px;
+}
+.correlati a,.correlati a:link,.correlati a:visited,.correlati a:hover {
+	color:#000;
+	text-decoration:none;
+}
+.correlati a:hover {
+	color:#000;
+	text-decoration:underline;
+}
+
+#preventivo input {
+	font-size:14px;
+	letter-spacing:1px;
+	color:#252525;
+	width:400px;
+	height:20px;
+	line-height:20px;
+	border:1px solid #cdcdcd;
+	padding:1px;
+	color:#40ac2a;
+}
+/**xxmod end */
