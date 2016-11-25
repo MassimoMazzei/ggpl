@@ -26,6 +26,7 @@ def ggpl_roofBuilder(roofShape):
 				if z != k[2]:
 					offset = STRUCT([offset,OFFSET([.1,.1,.1])(MKPOL([vertices,[[1,2,3,4]],None]))])
 
+	offset = COLOR(RED)(offset)
 	return offset
 
 def hipRoof():
