@@ -7,7 +7,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="366mm"
@@ -16,17 +15,8 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r"
-   sodipodi:docname="internal1.svg">
-  
-
-  <g
-     inkscape:groupmode="layer"
-     id="layer1"
-     inkscape:label="image"
-     transform="translate(0,-124.0156)"
-     style="opacity:0">
-
-  </g>
+   sodipodi:docname="internal.svg">
+ 
   <g
      inkscape:groupmode="layer"
      id="layer3"
@@ -85,11 +75,6 @@
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 637.26116,323.74108 0,95.16936 -16.79459,0 0,268.7135"
        id="path3687"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 282.70863,689.49001 291.10629,0"
-       id="path3689"
        inkscape:connector-curvature="0" />
   </g>
 </svg>
