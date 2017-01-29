@@ -8,11 +8,7 @@ import csv
 import stairs as s
 
 
-scale = .05					
-hwall= 10					
-hdoor = hwall-(hwall/4.)	
-hwindow = hwall-(hwall/4.)	
-roofAngle = 60*PI/180		
+	
 
 
 
@@ -185,6 +181,12 @@ def createFloor(path_ext_walls,path_int_walls,path_stairs,path_windows,path_door
 		parquet = TEXTURE("texture/floor.jpg")(parquet)
 		walls = TEXTURE("texture/wall.jpg")(walls)
 		return STRUCT([walls,parquet, windows, doors])
+
+scale = .05					
+hwall= 10					
+hdoor = hwall-(hwall/4.)	
+hwindow = hwall-(hwall/4.)	
+roofAngle = 60*PI/180	
 
 def main():
 	
