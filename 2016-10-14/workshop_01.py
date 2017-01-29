@@ -16,9 +16,11 @@ def spaceFrame(bx, bz, px, py, pillarDistances, pillarHeights):
 		beam = CUBOID([bx, pillarDistances[0], bz])
 		beams = STRUCT([T(3)(height), T(2)(px/2), beam])
 		dist = pillarDistances[0]
+		beam = CUBOID([bx,py,bz])
+		beams = STRUCT([beams, T(3)(height), beam])
 		for i in pillarDistances[1:]:
-			beam = CUBOID([bx, i, bz])
-			beams = STRUCT([beams, T(3)(height), T(2)(dist + px/2), beam])
+			beam = CUBOID([bx, i+py, bz])
+			beams = STRUCT([beams, T(3)(height), T(2)(dist), beam])
 			dist = dist + i
 		return beams
 
